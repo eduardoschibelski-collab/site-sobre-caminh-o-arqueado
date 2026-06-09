@@ -1,2 +1,2 @@
-# site-sobre-caminh-o-arqueado
+# site-sobre-caminhão-arqueado
 Caminhão Arqueado
