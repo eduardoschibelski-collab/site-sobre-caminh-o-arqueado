@@ -1,26 +1,15 @@
 <!DOCTYPE html>
-<html lang= ”pt”
-<head>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caminhoes Arqueados</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background: #f4f4f4;
-            padding: 50px;
-        }
-        h1 { color: #31008b; }
-    </style>
-</head>
-<body>
-    <h1>a moda dos Caminhoes Arqueados</h1>
-    <p>como arquear o seu caminhão de qualquer modelo</p>
-    <p>como deixar seu Caminhão no padrão alucinado</p>
-</body>
-</html>
-<title>Caminhoes</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<h2>Meu primeiro post</h2>
-<p>Boas-vindas a minha primeira esperiencia fazendo um site de de caminhoes arqueados! 
+<html lang= "pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=decice-width, initial-scale=1.0">
+        <title>Blog</title>
+   </head>
+   <body>
+       <header>
+           <h1>Meu site sobre Caminhoes Arqueados</h1>
+
+
+
+
