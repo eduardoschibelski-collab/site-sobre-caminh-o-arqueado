@@ -1,19 +1,81 @@
 <!DOCTYPE html>
-<html lang= "pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-        content="width=decice-width, initial-scale=1.0">
-        <title>Blog</title>
-   </head>
-   <body>
-       <header>
-           <h1>Meu site sobre Caminhoes Arqueados</h1>
-           <p>VOu falar sobre um pouco sobre os Caminhoes Arqueados</p>
-       </header>
-       <main>
-           <h2>Meu primeiro site sobre Caminhoes Arqueados</h2>
-           <p>Por: Eduardo Schibelski</p>
+<html lang= ”pt”
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camimhoes Arqueados</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background: #f4f4f4;
+padding: 50px;
+}
+h1 { color: #0400ff; }
+</style>
+</head>
+<body>
+<h1>a moda dos Caminhoes Arqueados</h1>
+<p>como arquear o seu Caminho de qualquer modelo</p>
+<p>como deixar seu caminhao no padrão alucinado</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
