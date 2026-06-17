@@ -1,173 +1,206 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caminhão Arqueado Brasil</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caminhão Arqueado - Cultura e Estilo</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0f0f0f;
-      color: white;
-    }
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
-    header {
-      background: linear-gradient(90deg, #ff0000, #ff7300);
-      padding: 20px;
-      text-align: center;
-    }
+body {
+    background: #0b1220;
+    color: white;
+}
 
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.85);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
 
-    nav {
-      background: #1a1a1a;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px;
-    }
+header h1 {
+    color: #22c55e;
+    font-size: 20px;
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
+header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
 
-    nav a:hover {
-      color: #ff7300;
-    }
+header nav a:hover {
+    color: #22c55e;
+}
 
-    .hero {
-      text-align: center;
-      padding: 50px 20px;
-      background: url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7') center/cover;
-      color: white;
-    }
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1619642751034-765dfdf7c58b") center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
 
-    .hero h2 {
-      font-size: 2rem;
-      background: rgba(0,0,0,0.6);
-      display: inline-block;
-      padding: 10px 20px;
-      border-radius: 10px;
-    }
+.hero h2 {
+    font-size: 45px;
+    color: #22c55e;
+    text-shadow: 2px 2px 10px black;
+}
 
-    .content {
-      padding: 30px;
-      max-width: 900px;.
-      margin: auto;
-    }
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
 
-    .card {
-      background: #1f1f1f;
-      padding: 20px;
-      margin: 15px 0;
-      border-radius: 10px;
-      border-left: 5px solid #ff7300;
-    }
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #22c55e;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #111;
-      margin-top: 30px;
-    }
+/* SEÇÕES */
+section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
 
-    button {
-      background: #ff7300;
-      border: none;
-      padding: 10px 20px;
-      color: white;
-      font-size: 1rem;
-      border-radius: 8px;
-      cursor: pointer;
-    }
+h2 {
+    margin-bottom: 20px;
+    color: #22c55e;
+}
 
-    button:hover {
-      background: #ff0000;
-    }
-  </style>
+.card {
+    background: #111827;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* GALERIA */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: black;
+    margin-top: 40px;
+    color: gray;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>🚛 Caminhão Arqueado Brasil</h1>
+<h1>🚚 Caminhão Arqueado</h1>
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#vantagens">Vantagens</a>
+<a href="#galeria">Galeria</a>
+</nav>
 </header>
 
-<nav>
-  <a href="#sobre">Sobre</a>
-  <a href="#estilo">Estilo</a>
-  <a href="#galeria">Galeria</a>
-</nav>
-
+<!-- HERO -->
 <section class="hero">
-  <h2>O estilo que domina as estradas!</h2>
+<h2>Estilo e Cultura das Estradas</h2>
+<p>Conheça o universo dos caminhões arqueados</p>
+<button onclick="document.getElementById('sobre').scrollIntoView({behavior:'smooth'})">
+Explorar
+</button>
 </section>
 
-<div class="content">
+<!-- SOBRE -->
+<section id="sobre">
+<div class="card">
+<h2>O que é caminhão arqueado?</h2>
+<p>
+O caminhão arqueado é um estilo onde a suspensão traseira é elevada,
+criando um visual mais agressivo e chamativo nas estradas.
+É muito popular entre caminhoneiros que gostam de personalização.
+</p>
+</div>
+</section>
 
-  <section id="sobre" class="card">
-    <h2>Sobre</h2>
-    <p>
-      O caminhão arqueado é um estilo de customização onde o veículo ganha uma postura mais baixa e agressiva,
-      chamando atenção por onde passa.
-    </p>
-  </section>
-
-  <section id="estilo" class="card">
-    <h2>Estilo</h2>
-    <p>
-      Esse estilo é muito popular em eventos de caminhoneiros, encontros de estrada e redes sociais.
-      É sinônimo de personalidade e presença.
-    </p>
-  </section>
-
-  <section id="galeria" class="card">
-    <h2>Galeria</h2>
-    <p>Clique no botão para ver uma mensagem especial:</p>
-    <button onclick="mostrarMensagem()">Ver mensagem</button>
-    <p id="msg"></p>
-  </section>
-
+<!-- VANTAGENS -->
+<section id="vantagens">
+<div class="card">
+<h2>Vantagens e Desvantagens</h2>
+<p><b>✔ Vantagens:</b> visual único, estilo personalizado, destaque nas estradas.</p>
+<p><b>⚠ Desvantagens:</b> pode afetar estabilidade, consumo e segurança se mal ajustado.</p>
 </div>
 
-<footer>
-  <p>© 2026 - Site criado sobre Caminhão Arqueado 🚛</p>
-</footer>
+<div class="card">
+<h2>Importante</h2>
+<p>
+Alterações em caminhões devem seguir regras do CONTRAN e inspeção do INMETRO
+para garantir segurança e legalidade.
+</p>
+</div>
+</section>
 
-<script>
-  function mostrarMensagem() {
-    document.getElementById("msg").innerHTML =
-      "🔥 Respeito nas estradas e estilo pesado! 🔥";
-  }
-</script>
+<!-- GALERIA -->
+<section id="galeria">
+<h2>Galeria de Caminhões</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7" alt="caminhão">
+<img src="https://images.unsplash.com/photo-1597764699510-7e0c3f7a6a1b" alt="caminhão estrada">
+<img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58b" alt="truck">
+<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a" alt="road truck">
+<img src="https://images.unsplash.com/photo-1542365887-1149961dccc7" alt="truck night">
+<img src="https://images.unsplash.com/photo-1493238792000-8113da705763" alt="highway truck">
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 - Site sobre Caminhão Arqueado | Criado para demonstração</p>
+</footer>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
