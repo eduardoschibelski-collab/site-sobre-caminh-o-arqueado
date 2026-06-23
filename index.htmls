@@ -15,7 +15,9 @@
             }
             main {
                 background-color: #00a8ff
-                color: #000000
+                color: #000000;
+                max-width: 800px;
+                margin: 0 auto;
             }
         </style>
     </head>
