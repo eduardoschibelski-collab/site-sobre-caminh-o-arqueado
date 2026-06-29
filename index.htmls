@@ -15,6 +15,7 @@
     body {
       font-family: Arial, Helvetica, sans-serif;
       background: #0f0f0f;
+
       color: white;
     }
 
@@ -144,7 +145,7 @@ ttps://share.google/Nbij4lSTX73RUFWUH
    
     <div class="galeria">
       <div class="card">
-        <img src="ttps://share.google/Nbij4lSTX73RUFWUH" alt="Scania V8 arqueada na cor vermelha">
+        <img src="ttps://share.google/Nbij4lSTX73RUFWUH" alt="Scania P310 Arqueada">
         <div class="card-content">
           <h3>Scania Arqueada</h3>
           <p>Os brutos mais insanos da estrada</p>
